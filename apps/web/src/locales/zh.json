@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "hero": "信号",
+    "lab": "实验室",
+    "visual": "视觉",
+    "system": "系统",
+    "architecture": "架构",
+    "quality": "质量",
+    "contact": "联系",
+    "brief": "简介"
+  },
+  "hero": {
+    "eyebrow": "Praxis / 工程信号",
+    "title": "在极端约束下仍保持 60fps 的界面系统。",
+    "subtitle": "我的前端实验项目——实时指标、可交互性能模块，以及我维护的 monorepo 架构。",
+    "cta": "查看简介",
+    "cmdHint": "按 Ctrl+K 快速导航"
+  },
+  "lab": {
+    "eyebrow": "02 / 性能实验室",
+    "title": "用数据说话，而非口号。",
+    "description": "可交互模块，附带真实 FPS 与耗时对比。"
+  },
+  "visual": {
+    "eyebrow": "03 / 视觉引擎",
+    "title": "克制的动效。",
+    "description": "Canvas 预设、滚动驱动动画、完整 reduced-motion 支持。"
+  },
+  "system": {
+    "eyebrow": "04 / 设计系统",
+    "title": "Token 与组件。",
+    "description": "Monorepo 共享 UI 基元与 live playground。"
+  },
+  "architecture": {
+    "eyebrow": "05 / 架构",
+    "title": "我的构建方式。",
+    "description": "点击节点查看选型理由。"
+  },
+  "quality": {
+    "eyebrow": "06 / 质量",
+    "title": "CI 可验证。",
+    "description": "测试、无障碍与我接受的工程取舍。"
+  },
+  "contact": {
+    "eyebrow": "07 / 联系",
+    "title": "联系我。",
+    "copyBrief": "复制项目简介",
+    "copied": "已复制！"
+  },
+  "footer": {
+    "built": "Vue 3 · TypeScript · Vite · pnpm monorepo"
+  }
+}

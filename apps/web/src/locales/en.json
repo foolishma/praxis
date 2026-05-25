@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "hero": "Signal",
+    "lab": "Lab",
+    "visual": "Visual",
+    "system": "System",
+    "architecture": "Architecture",
+    "quality": "Quality",
+    "contact": "Contact",
+    "brief": "Brief"
+  },
+  "hero": {
+    "eyebrow": "Praxis / Engineering Signal",
+    "title": "Interfaces that stay at 60fps under extreme constraints.",
+    "subtitle": "My personal frontend lab — live metrics, interactive performance modules, and a monorepo I ship and maintain.",
+    "cta": "Read the brief",
+    "cmdHint": "Press Ctrl+K to navigate"
+  },
+  "lab": {
+    "eyebrow": "02 / Performance Lab",
+    "title": "Measure, don't claim.",
+    "description": "Interactive modules with real FPS counters and timing comparisons."
+  },
+  "visual": {
+    "eyebrow": "03 / Visual Engine",
+    "title": "Motion with restraint.",
+    "description": "Canvas presets, scroll-driven animation, and reduced-motion support."
+  },
+  "system": {
+    "eyebrow": "04 / Design System",
+    "title": "Tokens and components.",
+    "description": "Shared UI primitives from my monorepo, with a live playground."
+  },
+  "architecture": {
+    "eyebrow": "05 / Architecture",
+    "title": "How I built this.",
+    "description": "Click a node to see why I chose each piece."
+  },
+  "quality": {
+    "eyebrow": "06 / Quality",
+    "title": "Verified in CI.",
+    "description": "Tests, accessibility checks, and the trade-offs I accept."
+  },
+  "contact": {
+    "eyebrow": "07 / Contact",
+    "title": "Get in touch.",
+    "copyBrief": "Copy project summary",
+    "copied": "Copied!"
+  },
+  "footer": {
+    "built": "Vue 3 · TypeScript · Vite · pnpm monorepo"
+  }
+}

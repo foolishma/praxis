@@ -1,0 +1,40 @@
+{
+  "name": "@praxis/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "echo web ok",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@praxis/lab": "workspace:*",
+    "@praxis/ui": "workspace:*",
+    "@vueuse/core": "^13.2.0",
+    "@vueuse/motion": "^3.0.3",
+    "pinia": "^3.0.2",
+    "three": "^0.176.0",
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.3",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/three": "^0.176.0",
+    "@unocss/reset": "^66.1.2",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "jsdom": "^29.1.1",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "typescript": "^5.8.3",
+    "unocss": "^66.1.2",
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.0",
+    "vitest": "^3.1.3",
+    "vue-tsc": "^2.2.8"
+  }
+}
