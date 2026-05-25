@@ -41,11 +41,20 @@ pnpm --filter @praxis/web typecheck
 
 ## Deploy to Vercel
 
-1. Import the repository in Vercel.
-2. Root Directory: repository root (this folder).
-3. Build: `pnpm build`, output: `dist` (repo root).
-4. In Vercel Project Settings, set **Output Directory** to `dist` and **Root Directory** to empty (repo root). Do not set Root Directory to `apps/web`.
-4. Node 20.x recommended.
+**Option A — Root Directory empty (recommended)**
+
+| Setting | Value |
+|---------|-------|
+| Root Directory | *(empty)* |
+| Build Command | `pnpm vercel-build` *(or leave blank — uses package.json)* |
+| Output Directory | `dist` |
+| Install Command | `pnpm install --frozen-lockfile` |
+
+**Option B — Root Directory = `apps/web`**
+
+Vercel reads `apps/web/vercel.json` automatically. Output Directory must be `dist`.
+
+After changing settings, click **Redeploy**.
 
 ## License
 

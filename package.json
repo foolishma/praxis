@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "pnpm --filter @praxis/web dev",
     "build": "pnpm -r build",
+    "vercel-build": "pnpm --filter @praxis/web build && node scripts/prepare-vercel-dist.mjs",
     "test": "pnpm -r test",
     "test:e2e": "pnpm --filter @praxis/web test:e2e",
     "lint": "pnpm -r lint",
